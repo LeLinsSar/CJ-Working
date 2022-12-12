@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f8f8;
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+header{
+    height: 650px;
+    padding-top: 4px;
+    color: #fff;
+    /* -16px grudada em cima */
+    background: url('../img/background.png');
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 4px 40px 0;
+    background-color: #fff;
+    font-size: 20px;
+    justify-content: flex-end;
+    padding-right: 8px;
+}
+.login{
+    font-weight: 700;
+    font-size: 24px;
+}
+.CJ{
+    background-color: #353CF3;
+    font-size: 40px;
+    width: 82px;    
+    height: 100px;
+    font-weight: 700;
+    color: #fff;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 1px;
+}
+.CJ p{
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+.CJ p:hover{
+    transform: scale(1.1);
+    transition: .1s;
+}
+.nav-bar-options{
+    display: flex;
+    gap: 50px;
+    margin-left: 300px;
+}
+.nav-bar .nav-bar-option{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+.nav-bar .nav-bar-option:hover{
+    text-decoration: underline;
+}
+.nav-bar .nav-bar-option:active{
+    color: #353CF3;
+}
+.contato{
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    gap: 67px;
+    margin-right: 40px;
+}
+.contato p{
+    cursor: pointer;
+}
+.contato p:hover{
+    text-decoration: underline;
+}
+.contato p:active{
+    color: #353CF3;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 25px 40px;
+    height: 373px;
+}
+.texto-hero{
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: 0.085em;
+        line-height: 30px;
+}
+.texto-hero p{
+    font-size: 16px;
+}
+.texto-hero .texto-destaque{
+    font-size: 32px;
+    line-height: 32px;
+    margin: 0;
+}
+.form-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.form-hero div input{
+    width: 366px;
+    height: 53px;
+    padding-left: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    position: relative;
+    outline: 0;
+}
+.form-hero div input::placeholder{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing:.085em;
+    position: relative;
+    bottom: 20%;
+    left: 3%;
+}
+.submit{
+    width: 285px;
+    height: 67px;
+    color: #fff;
+    background-color: #353CF3;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: .085em;
+    border: none;
+    cursor: pointer;
+}
+.card-hero{
+    width: 387px;
+    height: 373px;
+    background-color: #fff;
+    padding: 15px 24px;
+    border-radius: 8px;
+}
+.card-hero .titulo1{
+    display: flex;
+    gap: 232px;
+}
+.setinha{
+    cursor: pointer;
+}
+.card-hero .titulo1 h2{
+    color: #353CF3;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: .085em;
+}
+.titulo2, .list, .list-item, .list-title, .btn-vaga{
+    color: #000;
+} 
+.titulo2{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .085em;
+}
+.list{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .085em;
+    line-height: 21px;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: "-";
+}
+.list-title{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .085em;
+}
+.btns-card-hero{
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    gap: 55px;
+}
+.btn-vaga, .btn-candidatar{
+    width: 148px;
+    height: 37px;   
+}
+.btn-vaga{
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.btn-candidatar{
+    background-color: #353CF3;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+.section1, .section2, .section3{
+    margin: 40px;
+}
+.section1{
+    display: flex;
+    font-size: 24px;
+    letter-spacing: .085em;
+    gap: 15px;
+}
+.textos-main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.texto-bold{
+    font-weight: 800;
+    font-size: 32px;
+}
+.cards-hero-main{
+    display: flex;
+    gap: 20px;
+}
+.btns-section2{
+    display: flex;
+    gap: 620px;
+    margin: 35px 0 35px 105px;
+}
+.btns-section2 button{
+    height: 37px;
+    cursor: pointer;
+}
+.btns-setinhas button{
+    margin-right: 20px;
+}
+.btns-setinhas button{
+    width: 82px;
+    border: none;
+}
+.todas-vagas{
+    color: #fff;
+    background-color: #353CF3;
+    width: 183px;
+    border: none;
+}
+.setinha-esquerda{
+    background-color: #fff;
+}
+.setinha-direita{
+    background-color: #353CF3;
+    cursor: pointer;
+}
+.section3{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.titulo-section3{
+    background-color: #fff;
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: .085em;
+}
+.linha1{
+    display: flex;
+    gap: 21px;
+}
+.cards-perfil1, .cards-perfil2{
+    display: flex;
+    gap: 21px;
+}
+.card-perfil{
+    background-color: #fff;
+    width: 284px;
+    height: 373px;
+}
+.card-perfil p{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .085em;
+}
+.nome-setinha{
+    position: relative;
+    top: 132px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+.nome-setinha p{
+    margin: 0;
+}
+.prof{
+    margin: 0 17px;
+}
+.foto-perfil{
+    margin-left: 89px;
+    margin-top: 95px;
+}
+.nome-perfil{
+    position: relative;
+    left: 12px;
+    bottom: 5px;
+}
+.card-perfil button{
+    position: relative;
+    left: 7px;
+    border: none;
+    width: 87px;
+    height: 37px;
+}
+.textos-linha1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+footer{
+    background-color: #fff;
+    height: 233px;
+    text-align: center;
+}
+.direitos{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: .085em;
+    position: relative;
+    top: 55px;
+}
+footer .CJ{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+.textos-footer{
+    display: flex;
+    gap: 110px;
+    position: relative;
+    top: 20px;
+}
+.texto1, .texto2, .texto3, .texto4{
+    width: 166px;
+    height: 140px;
+    letter-spacing: .085em;
+}
+.texto1 p, .texto2 p, .texto3 p, .texto4 p,.textos-footer h1{
+    font-size: 16px;
+}
